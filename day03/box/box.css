@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+  width: 1000px;
+  height: 1000px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.green {
+  background-color: #1abc9c;
+}
+.yellow {
+  background-color: #f1c40f;
+}
+.pink {
+  background-color: pink;
+}
+.blue {
+  background-color: #2980b9;
+}

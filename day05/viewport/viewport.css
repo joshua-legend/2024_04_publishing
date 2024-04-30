@@ -1,0 +1,13 @@
+.box {
+  width: 80vw;
+  height: 80vh;
+  background-color: skyblue;
+  /* 모든[all] 변화가 0.5s 걸려주셈*/
+  transition: all 0.5s;
+}
+
+.box:hover {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}

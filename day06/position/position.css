@@ -1,0 +1,36 @@
+body {
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  color: black;
+  font-size: 50px;
+  position: relative;
+}
+
+.green {
+  background-color: #55efc4;
+}
+
+.blue {
+  background-color: #74b9ff;
+  z-index: 2;
+}
+.red {
+  position: fixed;
+  top: 0px;
+  background-color: red;
+}
+
+.title {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
